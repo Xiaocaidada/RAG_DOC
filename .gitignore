@@ -1,0 +1,63 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境（你的.venv文件夹）
+.venv/
+venv/
+ENV/
+env/
+
+# 环境变量配置（避免泄露密钥，你的.env）
+.env
+.env.local
+.env.*.local
+
+# IDE 配置 - PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# 日志文件
+*.log
+
+# 数据库、向量库缓存（RAG项目常用）
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+faiss_index/
+vector_store/
+
+# 文档/大文件（可选，如果本地有pdf、大文档不想上传github）
+# *.pdf
+# *.docx
+# *.md
+
+# OS 文件
+.DS_Store
+Thumbs.db
