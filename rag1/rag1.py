@@ -17,11 +17,11 @@ load_dotenv()
 file_path="../docs/C1/markdown/easy-rl-chapter1.md"
 # 加载文档到内存
 docs=UnstructuredMarkdownLoader(file_path).load()
-print(f"文件加载到内存：[{docs}]")
+print(f"文件加载到内存")
 # 将文档进行切换
-text_splitter=RecursiveCharacterTextSplitter()
+text_splitter=RecursiveCharacterTextSplitter(chunk_size=200,chunk_overlap=100)
 chunks=text_splitter.split_documents(docs)
-print(f"文档被切割成块：[{chunks}]")
+print(f"文档被切割成块")
 
 
 #中文嵌入模型
@@ -60,10 +60,11 @@ question="文中举了哪些例子"
 # 检索
 retrieved_docs=vectorStore.similarity_search(question,k=3)
 docs_content="\n\n".join(doc.page_content for doc in retrieved_docs)
+print(f"检索到内容: {docs_content}")
 
 answer=llm.invoke(prompt.format(question=question,context=docs_content))
 
 # 模型输出结果
-print(f">>> 模型输出：[{answer}]")
+print(f">>> 模型输出：{answer.content}")
 
 
