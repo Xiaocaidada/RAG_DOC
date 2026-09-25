@@ -1,0 +1,56 @@
+[
+  {
+    "img_id": "dragon02",
+    "path": "../../data/C3/dragon/dragon02.png",
+    "title": "悬崖上的白龙",
+    "description": "一头雄伟的白色巨龙栖息在悬崖边缘，背景是金色的云霞和远方的海岸。它拥有巨大的翅膀和优雅的身姿，是典型的西方奇幻生物。",
+    "category": "western_dragon",
+    "location": "悬崖海岸",
+    "environment": "天空"
+  },
+  {
+    "img_id": "dragon03",
+    "path": "../../data/C3/dragon/dragon03.png",
+    "title": "霸王龙的怒吼",
+    "description": "史前时代的霸王龙张开血盆大口，发出震天的怒吼。在它身后，几只翼龙在阴沉的天空中盘旋，展现了白垩纪的原始力量。",
+    "category": "dinosaur",
+    "location": "史前荒野",
+    "environment": "陆地"
+  },
+  {
+    "img_id": "dragon04",
+    "path": "../../data/C3/dragon/dragon04.png",
+    "title": "奔跑的奶龙",
+    "description": "一只Q版的黄色小恐龙，有着大大的绿色眼睛和友善的微笑。是一部动画中的角色，非常可爱。",
+    "category": "cartoon_dinosaur",
+    "location": "动画世界",
+    "environment": "未知"
+  },
+  {
+    "img_id": "dragon05",
+    "path": "../../data/C3/dragon/dragon05.png",
+    "title": "驯龙高手：无牙仔",
+    "description": "在电影《驯龙高手》中，主角小嗝嗝骑着他的龙伙伴无牙仔在高空飞翔。他们飞向灿烂的太阳，下方是岛屿和海洋，画面充满了冒险与友谊。",
+    "category": "movie_character",
+    "location": "博克岛上空",
+    "environment": "天空"
+  },
+  {
+    "img_id": "dragon06",
+    "path": "../../data/C3/dragon/dragon06.png",
+    "title": "中华金龙",
+    "description": "一条金色的中华龙在祥云间盘旋，它身形矫健，龙须飘逸，展现了东方神话中龙的威严与神圣。",
+    "category": "chinese_dragon",
+    "location": "祥云之上",
+    "environment": "天空"
+  },
+  {
+    "img_id": "other01",
+    "path": "../../data/C3/dragon/other01.png",
+    "title": "金丝猴",
+    "description": "一只珍稀的金丝猴坐靠在树干上，悠闲地吃着食物。它拥有金色的长毛和蓝色的脸庞，是中国的特有物种。",
+    "category": "animal",
+    "location": "森林",
+    "environment": "陆地"
+  }
+]
